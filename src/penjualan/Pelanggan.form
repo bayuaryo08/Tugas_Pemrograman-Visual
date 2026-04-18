@@ -193,6 +193,9 @@
         </Property>
         <Property name="text" type="java.lang.String" value="Laki-Laki"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rlakiActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JRadioButton" name="rperempuan">
       <Properties>

@@ -105,6 +105,11 @@ private Connection conn = new koneksi().connect();
 
         rlaki.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
         rlaki.setText("Laki-Laki");
+        rlaki.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                rlakiActionPerformed(evt);
+            }
+        });
 
         rperempuan.setFont(new java.awt.Font("Tahoma", 1, 22)); // NOI18N
         rperempuan.setText("Perempuan");
@@ -437,6 +442,10 @@ private Connection conn = new koneksi().connect();
         // TODO add your handling code here:
     }//GEN-LAST:event_txtcariKeyPressed
 
+    private void rlakiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rlakiActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_rlakiActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -537,5 +546,6 @@ private Connection conn = new koneksi().connect();
     txttelp.setText("");
     txtalamat.setText("");
     txtcari.setText("");
+    
     }
 }
